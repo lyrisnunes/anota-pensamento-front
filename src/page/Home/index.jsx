@@ -31,17 +31,17 @@ export function Home() {
     e.preventDefault();
 
     if (input.trim() === "") {
-      return; // Se a entrada estiver em branco, não faz nada
+      return; 
     }
 
     const newTask = {
-      id: Date.now(), // Gera um ID único usando a data e hora atual
-      text: input, // Texto da tarefa a partir da entrada do usuário
-      completed: false, // Inicialmente, a tarefa não está concluída
+      id: Date.now(),
+      text: input, 
+      completed: false, 
     };
 
-    setTasks([...tasks, newTask]); // Adiciona a nova tarefa ao estado 'tasks'
-    setInput(""); // Limpa a entrada para que o usuário possa inserir uma nova tarefa
+    setTasks([...tasks, newTask]); 
+    setInput(""); 
   }
 
   function deleteTask(taskToDelete) {
@@ -71,9 +71,9 @@ export function Home() {
       const updatedCompleted = completedTasks.filter(
         (task) => task.id !== taskToToggle.id
       );
-      setCompletedTasks(updatedCompleted); // Remove a tarefa concluída dos 'completedTasks'
+      setCompletedTasks(updatedCompleted); 
     } else {
-      setCompletedTasks([...completedTasks, taskToToggle]); // Adiciona a tarefa aos 'completedTasks'
+      setCompletedTasks([...completedTasks, taskToToggle]); 
     }
   }
 

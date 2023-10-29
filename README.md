@@ -1,8 +1,13 @@
-# React + Vite
+## Anotações de projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação que permite aos usuários adicionar projetos em andamento, marcar quando um projeto foi concluído, excluir e armazenar informações no localStorage para fácil acesso e gerenciamento dos projetos.
 
-Currently, two official plugins are available:
+Essa aplicação seria útil para indivíduos que deseja acompanhar e gerenciar projetos de forma simples e eficaz. Ela oferece funcionalidades básicas para o controle de projetos e tarefas, com a conveniência de armazenamento local.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Funcionabilidade
+
+- Adicionar projetos  em andamento
+- Marcar quando projeto já foi concluído.
+- Deletar tarefa
+- Armazenamento no localStorage
+

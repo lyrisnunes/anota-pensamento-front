@@ -9,7 +9,12 @@ export const Container = styled.div`
    align-items: center;
    flex-direction: column;
 
+   p{
+      padding-top: .2rem;
+   }
+
     span{
       color: ${({ theme})=> theme.COLORS.PURPLE};
+
    }
 `;
