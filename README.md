@@ -4,6 +4,10 @@ Uma aplicação que permite aos usuários adicionar projetos em andamento, marca
 
 Essa aplicação seria útil para indivíduos que deseja acompanhar e gerenciar projetos de forma simples e eficaz. Ela oferece funcionalidades básicas para o controle de projetos e tarefas, com a conveniência de armazenamento local.
 
+<h1>
+         <img src="src/img/img.png" >
+</h1>
+
 # Funcionabilidade
 
 - Adicionar projetos  em andamento

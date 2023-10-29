@@ -84,7 +84,7 @@ export function Home() {
       <Search>
         <form onSubmit={register}>
           <input
-            placeholder="Adicione uma nova tarefa"
+            placeholder="Adicione um novo projeto"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             required
